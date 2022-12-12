@@ -1,0 +1,14 @@
+<odoo>
+
+        <report
+            id="print_raport_sekolah"
+            string="Buku Rapot"
+            model="buku.rapot"
+            report_type="qweb-pdf"
+            menu="False"
+            name="aa_kurikulum.template_raport_sekolah"
+            file="aa_kurikulum.template_raport_sekolah"
+            print_report_name="'Buku Rapot - %s' % (object.name)"
+        />
+
+</odoo>
